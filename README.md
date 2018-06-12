@@ -9,7 +9,7 @@ Theme
 Flux theme is based on `robbyrussell.zsh-theme`. The only thing it adds is displaying current market in ZSH
 prompt based on the value from `.env` file.
 
-<img src="https://git.fluxfederation.com/vladimir/flux_zsh/raw/master/theme_screenshot.png" width=400>
+<img src="theme_screenshot.png" width=400>
 
 Plugin
 ---------
