@@ -4,7 +4,7 @@ function flux_root() {
 
 function flux_market() {
   if [[ -n "$(flux_root)" ]]; then
-    sed -E 's/.*PS_MARKET=([a-z]+).*/\1/' $(flux_root)/.env 2> /dev/null
+    sed -n -E 's/.*PS_MARKET=([a-z]+).*/\1/p' $(flux_root)/.env 2> /dev/null
   fi
 }
 
